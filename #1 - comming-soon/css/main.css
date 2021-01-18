@@ -1,0 +1,46 @@
+* { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html { min-height: 100%; height: 100%; }
+
+/* Variables */
+html { font-family: "Josefin Sans", sans-serif; font-size: 16px; }
+
+body { background: url(../images/bg-pattern-desktop.svg), linear-gradient(135deg, #FFFFFF, #FFF5F5); background-size: 70% 100%; background-repeat: no-repeat; }
+
+@media (min-width: 376px) { .container { display: -ms-grid; display: grid; -ms-grid-columns: 58% 42%; grid-template-columns: 58% 42%; -ms-grid-rows: 90px 1fr; grid-template-rows: 90px 1fr; grid-column-gap: 0px; grid-row-gap: 0px; height: 100vh; }
+  .photo img { height: 100vh; width: 100%; -o-object-fit: cover; object-fit: cover; }
+  header { padding: 4.3rem 2.5rem; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; -ms-grid-column-align: center; justify-self: center; max-width: 506px; width: 100%; }
+  header img { width: 163px !important; }
+  main { text-align: left !important; padding: 60px 30px; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; -ms-grid-column-align: center; justify-self: center; max-width: 506px; width: 100%; }
+  main h1 { font-size: 4rem !important; } }
+
+img { max-width: 100%; }
+
+header { padding: 2rem; }
+
+header img { width: 100px; }
+
+main { margin-top: 1rem; padding: 2.3rem; text-align: center; }
+
+main h1 { font-weight: 600; color: #413a3a; text-transform: uppercase; font-size: 2.8rem; letter-spacing: .9rem; margin: 0 auto; }
+
+main h1 span { font-weight: 300; color: #ce9797; }
+
+main p { margin-top: 1rem; line-height: 1.5rem; font-size: .85rem; color: #ce9797; }
+
+main .form-group { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+
+main .form-group input { margin-top: 2rem; border: 1px solid #ce9797; background: transparent; border-radius: 50px; padding: .9rem; color: #ce9797; width: 100%; }
+
+main .form-group input::-webkit-input-placeholder { color: #ce9797; font-family: "Josefin Sans"; }
+
+main .form-group input:-ms-input-placeholder { color: #ce9797; font-family: "Josefin Sans"; }
+
+main .form-group input::-ms-input-placeholder { color: #ce9797; font-family: "Josefin Sans"; }
+
+main .form-group input::placeholder { color: #ce9797; font-family: "Josefin Sans"; }
+
+main .form-group input:focus { outline: none; }
+
+main .form-group button { color: #fff; background: linear-gradient(135deg, #f8bfbf, #ee8c8c); border: none; border-radius: 50px; width: 70px; height: 46px; margin-left: -3rem; outline: none; -webkit-box-shadow: 0 8px 16px 0 rgba(206, 151, 151, 0.5); box-shadow: 0 8px 16px 0 rgba(206, 151, 151, 0.5); }
+/*# sourceMappingURL=main.css.map */

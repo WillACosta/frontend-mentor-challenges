@@ -1,0 +1,78 @@
+@import './reset';
+@import './theme';
+@import './responsive';
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 2rem;
+
+  img {
+    width: 100px;
+  }
+}
+
+main {
+  margin-top: 1rem;
+  padding: 2.3rem;
+  text-align: center;
+
+  h1 {
+    font-weight: 600;
+    color: $neutral;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    letter-spacing: .9rem;
+    margin: 0 auto;
+
+    span {
+      font-weight: 300;
+      color: $primary;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: .85rem;
+    color: $primary;
+  }
+
+  .form-group {
+    input {
+      margin-top: 2rem;
+      border: 1px solid $primary;
+      background: transparent;
+      border-radius: 50px;
+      padding: .9rem;
+      color: $primary;
+      width: 100%;
+
+      &::placeholder {
+        color: $primary;
+        font-family: $font;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    display: flex;
+    align-items: flex-end;
+
+    button {
+      color: $white;
+      background: linear-gradient($gradient_);
+      border: none;
+      border-radius: 50px;
+      width: 70px;
+      height: 46px;
+      margin-left: -3rem;
+      outline: none;
+      box-shadow: 0 8px 16px 0 rgba(206, 151, 151, .5);
+    }
+  }
+}

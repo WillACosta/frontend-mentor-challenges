@@ -1,0 +1,23 @@
+/* Variables */
+$primary: hsl(0, 36%, 70%);
+$primary_: hsl(0, 93%, 68%);
+$white: #fff;
+$neutral: hsl(0, 6%, 24%);
+$gradient: 135deg, #FFFFFF, #FFF5F5;
+$gradient_: 135deg, #f8bfbf, #ee8c8c;
+
+$font: 'Josefin Sans';
+
+$mobile__width: 375px;
+$desktop__width: 1440px;
+
+html {
+  font-family: $font, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: url(../images/bg-pattern-desktop.svg), linear-gradient($gradient);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+}
